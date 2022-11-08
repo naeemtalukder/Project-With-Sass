@@ -9,7 +9,7 @@
 
 .main {
   width: 1200px;
-  margin: 0 none;
+  margin: 0 auto;
 }
 
 .fix::before, .fix::after {
@@ -21,6 +21,7 @@
 a {
   text-decoration: none;
   color: #333;
+  transition: 0.3s;
 }
 
 img {
@@ -213,4 +214,36 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
+}
+
+.header-area {
+  padding: 20px 0;
+}
+.header-area .logo {
+  float: left;
+  width: 230px;
+}
+.header-area .logo a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+.header-area .menu {
+  float: right;
+  width: 940px;
+  margin-left: 30px;
+}
+.header-area .menu ul {
+  text-align: right;
+}
+.header-area .menu ul li {
+  display: inline-block;
+}
+.header-area .menu ul li a {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header-area .menu ul li a:hover {
+  color: #ff7720;
 }/*# sourceMappingURL=style.css.map */
