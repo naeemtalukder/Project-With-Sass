@@ -30,6 +30,25 @@ ul{
     list-style: none;
 }
 
+/* Background CSS */
+.bg{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: $black;
+        opacity: .75;
+        z-index: -1;
+    }
+}
+
 /* Margin & Padding */
 @for $i from 1 through 10 {
     .pt-#{$i * 10}{
