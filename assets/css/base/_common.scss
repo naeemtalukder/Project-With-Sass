@@ -9,6 +9,12 @@
     margin: 0 none;
 }
 
+.fix::before, .fix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 a{
     text-decoration: none;
     color: $black;
