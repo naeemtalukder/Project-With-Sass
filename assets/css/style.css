@@ -52,6 +52,31 @@ ul {
   z-index: -1;
 }
 
+/* Button CSS */
+.btn {
+  padding: 10px 40px;
+  text-transform: capitalize;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 3px;
+  color: #fff;
+}
+.btn.box-btn {
+  background-color: #ff7720;
+  transition: 0.3s;
+}
+.btn.box-btn:hover {
+  background-color: #333;
+}
+.btn.border-btn {
+  border: 2px solid #ff7720;
+  padding: 8px 40px;
+  transition: 0.3s;
+}
+.btn.border-btn:hover {
+  border-color: #333;
+}
+
 /* Margin & Padding */
 .pt-10 {
   padding-top: 10px;
@@ -245,7 +270,7 @@ body {
 .header-area .logo a {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
 }
 .header-area .menu {
   float: right;
@@ -265,4 +290,18 @@ body {
 }
 .header-area .menu ul li a:hover {
   color: #ff7720;
+}
+
+.banner-content {
+  color: #fff;
+}
+.banner-content h2 {
+  font-size: 45px;
+}
+.banner-content p {
+  max-width: 500px;
+  margin: 30px auto;
+}
+.banner-content a {
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */

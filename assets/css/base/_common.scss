@@ -49,6 +49,31 @@ ul{
     }
 }
 
+/* Button CSS */
+.btn{
+    padding: 10px 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 3px;
+    color: $white;
+    &.box-btn{
+        background-color: $primary_color;
+        transition: .3s;
+        &:hover{
+            background-color: $black;
+        }
+    }
+    &.border-btn{
+        border: 2px solid $primary_color;
+        padding: 8px 40px;
+        transition: .3s;
+        &:hover{
+            border-color: $black;
+        }
+    }
+}
+
 /* Margin & Padding */
 @for $i from 1 through 10 {
     .pt-#{$i * 10}{
