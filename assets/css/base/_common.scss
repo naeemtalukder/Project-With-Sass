@@ -74,27 +74,32 @@ ul{
     }
 }
 /* Section Title CSS */
-.section-title{
+
+.section-title {
     margin-bottom: 60px;
-    h4{
-        text-transform: capitalize;
-        font-size: 45px;
-        position: relative;
-        display: inline-block;
-        margin-bottom: 20px;
-        padding-bottom: 25px; 
-        &:before{
-            position: absolute;
-            content: "";
-            width: 60px;
-            height: 2px;
-            background-color: tomato;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-        }   
+    h4 {
+      text-transform: capitalize;
+      font-size: 45px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding-bottom: 25px;
+      &:before {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 2px;
+        background-color: $primary_color;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
     }
-}
+    p{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+  }
 
 /* Margin & Padding */
 @for $i from 1 through 10 {
