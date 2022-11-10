@@ -412,9 +412,26 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  color: #fff;
+  color: #ff7720;
   text-align: center;
-  padding: 20px;
-  font-size: 22px;
+  padding: 10px;
+  font-size: 20px;
   text-transform: capitalize;
+}
+.single-gallery h4:hover {
+  background-color: #ff7720;
+  color: black;
+}
+
+.cta-area {
+  color: #fff;
+}
+.cta-area h4 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ff7720;
+}
+.cta-area p {
+  margin: 30px 0;
 }/*# sourceMappingURL=style.css.map */

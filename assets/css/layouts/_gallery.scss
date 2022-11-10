@@ -16,10 +16,14 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        color: $white;
+        color: $primary_color;
         text-align: center;
-        padding: 20px;
-        font-size: 22px;
+        padding: 10px;
+        font-size: 20px;
         text-transform: capitalize;
+        &:hover{
+            background-color: $primary_color;
+            color: $black_bg;
+        }
     }
 }
