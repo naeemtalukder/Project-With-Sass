@@ -391,4 +391,30 @@ body {
   text-transform: capitalize;
   font-size: 22px;
   margin: 20px 0;
+}
+
+.single-gallery {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 30px;
+  width: 370px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.single-gallery:last-child {
+  margin-right: 0;
+}
+.single-gallery h4 {
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
