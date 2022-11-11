@@ -24,3 +24,44 @@
         }
     }
 }
+
+.contact-bottom{
+    margin-top: 50px;
+    .contact-form{
+        float: left;
+        width: 700px;
+        margin-right: 50px;
+        input, textarea{
+            width: 100%;
+            border: 1px solid $white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            background-color: $primary_color;
+            width: auto;
+            padding: 10px 40px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;
+            color: $white;
+            border: 0;
+            cursor: pointer;
+            transition: .3s;
+            &:hover{
+                background-color: $black;
+                color: $primary_color;
+            }
+        }
+    }
+    .contact-map{
+        float: right;
+        width: 450px;
+        iframe{
+            width: 100%;
+            border: 1px solid $border_color;
+            padding: 3px;
+            height: 330px;
+        }
+    }
+}
