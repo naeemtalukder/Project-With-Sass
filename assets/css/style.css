@@ -478,6 +478,10 @@ body {
 }
 .single-address i {
   font-size: 35px;
+  color: #ff7720;
+}
+.single-address i:hover {
+  color: #333;
 }
 .single-address h4 {
   text-transform: uppercase;

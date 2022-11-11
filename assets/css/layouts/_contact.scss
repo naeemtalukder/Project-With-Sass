@@ -6,6 +6,10 @@
     width: 400px;
     i{
         font-size: 35px;
+        color: $primary_color;
+        &:hover{
+            color: $black;
+        }
     }
     h4{
         text-transform: uppercase;
